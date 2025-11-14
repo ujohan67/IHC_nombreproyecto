@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>IHC trabajo personal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+  <h1> Titulo principal </h1>
+  </h2> Opciones: </h2>
+    <nav class = "topheader">
+      <a href="" class="Logo">
+        <img height="80px" width="80px" src="Imagenes/log2_ihc.png"at=""/>
+      <a>
+
+      <!-- Diseño del Menu horizontal -->
+
+      <ul class = "Menu-Horizontal">
+        <li><a href="">Banca virtual<a></li>
+
+        <!--Para enlazar un subtitulo con otra pantalla-->
+        <li><a href=""> Productos <a>
+          <ul class = "Menu-Vertical">
+            <li><a href=""> Cuentas depositos <a></li>
+            <li><a href=""> Prestamos creditos <a></li>
+            <li><a href=""> Tarjetas <a></li>
+            <li><a href=""> Servicios adicionales <a></li>
+          </ul>
+        </li>
+        <!--Aqui arriba termina Productos-->
+
+        <li><a href=""> Promociones <a></li>
+        <li><a href=""> Contactanos <a></li>
+        <li><a href=""> Ayuda <a></li>
+      </ul>
+    </nav>
+
+    <!--SECION REGISTRAR UN GRUPO -->
+    <section class="registrar_grupo">
+      <div class="div-general-rgrupo">
+        <div class="div-rgrupo-texto">
+          <h2>Seccion Banca</h2>
+          <p>
+            A continuación se mostrarán el concepto concreto de la banca es la sección principal 
+            del sector financiero, que se encarga de la intermediación y 
+            canalización de fondos, ofreciendo servicios como depósitos, 
+            préstamos, gestión de inversiones y tarjetas de crédito. 
+            El sector financiero también incluye otras entidades como 
+            corredores de bolsa, aseguradoras y prestamistas. 
+            La banca se clasifica a menudo en tres segmentos: 
+            banca minorista (personal), banca mayorista (empresas)
+            y gestión de patrimonio. 
+          </p> 
+        </div>
+        <div class="div-rgrupo-img">
+          <img src="Imagenes/image1.png" />
+        </div>
+      </div>
+    </section>
+
+    <!--SECION AÑADIR UNA TAREA -->
+    <section class="añadir-tarea">
+      <div class="div-añadir-tarea">
+        <div class="div-añadir-tarea"></div>
+
+        <div class="div-añadir-tarea-video"></div>
+      </div>
+    </section>
+
+  </body>
+</html>
+
+<section class="Ayuda-general">
+  <div class="div-ayuda-formulario">
+      <h2>Formulario</h2>
+      <p>En este formulario se va a recopilar la información sobre su dda o queja. Sientase libre de escribirnos</p>
+      <p>Por favor, complete todos los campos</p>
+      <form class="Formulario">
+          <!-- Input + label: Nombre, Ape, DNI, Telf-->
+           <div class="Campo">
+              <label for="Nombre">Nombre: </label>
+              <input type="text" id="tb-nombre" name="tb-nombre" placeholder="Ingrese su nombre">
+              <label for="Apellido">Apellido: </label>
+              <input type="text" id="tb-apellido" name="tb-apellido" placeholder="Ingrese su apellido">
+              <label for="Direccion">Direccion: </label>
+              <input type="text" id="tb-direc" name="tb-direc" placeholder="Ingrese su direccion">
+           </div>
+
+          <!-- Lista Desplegable-->
+          <div class="campo">
+            <label for="Nombre">Pais: </label>
+            <select id="pais" name="pais">
+                <option value="Peru" name="Peru"></option>
+                <option value="Brasil"></option>
+                <option value="Estados Unidos"></option>
+                <option value="España"></option>
+            </select>
+          </div>
+
+
+          <!-- Check box-->
+          <div class="campo">
+              <label> Intereses:</label>
+              <ul class="lista-checkbox">
+                  <li><label><input type ="checkbox" name="intereses" value="a">Educacion</li>
+                  <li><label><input type ="checkbox" name="intereses" value="b">Intereses</li>
+                  <li><label><input type ="checkbox" name="intereses" value="c">ETC</li>
+                  <li><label><input type ="checkbox" name="intereses" value="d">ETC</li>
+                  </ul>
+          </div>
+
+          <!-- radio-->
+          <div class="campo">
+              <label> Sexo:</label>
+              <ul class="lista-checkbox">
+                  <li><label><input type ="radio" name="sexo" value="m">Masculino</li>
+                  <li><label><input type ="radio" name="sexo" value="f">Femenino</li>
+                  <li><label><input type ="radio" name="sexo" value="o">otros</li>
+                    <label for="Otro">Otros: </label>
+                    <input type="text" id="tb-otro" name="tb-otro" placeholder="Ingrese su genero">
+                  </ul>
+          </div>
+          </select>
+          <section class="boton">
+            <button type="submit">Enviar</button>
+          </section>
+      </form>
+  </div>
+
+</section>
+
+  <!-- PIE DE PÁGINA -->
+  <link rel="stylesheet" href="Pie.css" />
+  <section id="footer">
+    <footer class="footer">
+      <div class="footer-container">
+        <link rel="stylesheet" href="Pie.css" />
+        <!-- Logo y nombre del sitio -->
+        <div class="footer-brand">
+          <img
+            src="Imagenes/senati-logo.png"
+            alt="Logotipo"
+            clase="logotipo de pie de página"
+          />
+          <p>SENATI</p>
+          <small>© 2025 Todos los derechos reservados</small>
+        </div>
+
+        <!-- Enlaces legales -->
+        <div class="footer-links">
+          <h4>Aviso legal</h4>
+          <a href="/Documentos/3.politica-privacidad.pdf"
+            >Política de Privacidad</a
+          >
+          <!-- Dentro de href llama a un documento pdf con la política-->
+          <a href="#">Términos y condiciones</a>
+          <!-- Dentro de href llama a un documento pdf con los términos y condiciones-->
+          <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+        </div>
+
+        <!-- Redes sociales con íconos personalizados -->
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+              alt="Facebook"
+              clase="icono social"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+              alt="Instagram"
+              clase="icono social"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+              alt="LinkedIn"
+              clase="icono social"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+              alt="Twitter"
+              clase="icono social"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </section>

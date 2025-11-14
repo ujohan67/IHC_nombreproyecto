@@ -1,0 +1,145 @@
+.topheader {
+  position: fixed;
+  background-color: white;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Menu-Horizontal {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 20px;
+}
+
+.Menu-Vertical {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+}
+
+.Menu-Horizontal li a:hover {
+  color: blue;
+}
+
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+.Menu-Vertical-Productos {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+  background-color: blue;
+}
+
+/* SECCION CREAR UN GRUPO */
+.registrar_grupo {
+  padding: 80px 20px;
+  background-color: rgb(34, 32, 32);
+}
+
+.div-general-rgrupo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.div-rgrupo-texto {
+  flex: 1;
+}
+
+.div-rgrupo-texto h2 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.div-rgrupo-texto p {
+  color: aliceblue;
+  line-height: 1;
+  text-align: justify;
+}
+
+.div-rgrupo-img img {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Seccion Formulario */
+.Ayuda-general {
+  background-color: rgb(27, 29, 28);
+  padding: 40px;
+  padding-top: 100px;
+  border: 2px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.div-ayuda-formulario {
+  justify-content: center;
+  background-color: rgb(0, 225, 255);
+  padding: 30px;
+  border: 3px solid black;
+  width: 100%;
+  max-width: 500px;
+}
+
+.campo {
+  background-color: rgb(228, 253, 2);
+  padding: 15px;
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Formulario label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+/*Para las cajas input select */
+.Formulario input[type="text"],
+.Formulario select {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.Lista-checkbox,
+.Lista-radio {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px;
+}
+
+.Formulario button {
+  background-color: rgb(255, 209, 5);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
