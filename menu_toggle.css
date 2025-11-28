@@ -12,7 +12,7 @@
 @media (max-width: 768px) {
   .menu-toggle {
     display: block; /* Mostrar botón hamburguesa en móviles */
-    color: black;
+    color: white;
   }
 
   .Menu-Horizontal {
